@@ -1,0 +1,10 @@
+name: city_catalog
+description: Каталог городов на чистом Dart — модель, данные и выборки.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0

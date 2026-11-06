@@ -1,1 +1,6 @@
 include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  # У пакета свой pubspec и свой анализ: cd packages/city_catalog && dart analyze
+  exclude:
+    - packages/**

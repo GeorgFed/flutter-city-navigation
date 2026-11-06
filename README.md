@@ -24,7 +24,7 @@ flutter run -d chrome -t lib/tabs.dart   # таб-бар, нижний лист,
 ```sh
 flutter analyze --no-pub
 flutter test --no-pub                       # 14 проверок
-(cd packages/city_catalog && dart test)     # 3 проверки пакета
+(cd packages/city_catalog && dart pub get && dart analyze && dart test)   # пакет: 3 проверки
 flutter build web --no-pub -t lib/main.dart
 flutter build web --no-pub -t lib/tabs.dart
 ```
